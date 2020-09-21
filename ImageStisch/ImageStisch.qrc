@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/ImageStisch"/>
+    <qresource prefix="/Resource">
+        <file>Resources/icon_close_2.png</file>
+        <file>Resources/icon_close_3.png</file>
+        <file>Resources/icon_max_1.png</file>
+        <file>Resources/icon_max_2.png</file>
+        <file>Resources/icon_max_3.png</file>
+        <file>Resources/icon_menu_1.png</file>
+        <file>Resources/icon_menu_2.png</file>
+        <file>Resources/icon_menu_3.png</file>
+        <file>Resources/icon_min_1.png</file>
+        <file>Resources/icon_min_2.png</file>
+        <file>Resources/icon_min_3.png</file>
+        <file>Resources/icon_close_1.png</file>
+    </qresource>
+</RCC>

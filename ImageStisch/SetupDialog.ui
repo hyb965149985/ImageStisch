@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SetupDialog</class>
+ <widget class="QDialog" name="SetupDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>625</width>
+    <height>568</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>参数设置</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog{background: #555555;}</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QWidget" name="widget" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="leftMargin">
+       <number>2</number>
+      </property>
+      <property name="topMargin">
+       <number>2</number>
+      </property>
+      <property name="rightMargin">
+       <number>2</number>
+      </property>
+      <property name="bottomMargin">
+       <number>2</number>
+      </property>
+      <item>
+       <widget class="QWidget" name="widget_2" native="true">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>500</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>800</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(240, 240, 240);</string>
+        </property>
+        <widget class="QRadioButton" name="rbtn8z1">
+         <property name="geometry">
+          <rect>
+           <x>280</x>
+           <y>420</y>
+           <width>89</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>.jpg</string>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="rbtn8z3">
+         <property name="geometry">
+          <rect>
+           <x>490</x>
+           <y>420</y>
+           <width>89</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>.bmp</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_12">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>60</y>
+           <width>171</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{
+border-radius:5px;
+color:gray; 
+background: rgb(255, 255, 255);
+font: 11pt &quot;微软雅黑&quot;;
+border:1px solid rgb(110, 110, 110);
+}
+
+</string>
+         </property>
+         <property name="text">
+          <string>  图像排列方式</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label">
+         <property name="geometry">
+          <rect>
+           <x>280</x>
+           <y>460</y>
+           <width>181</width>
+           <height>32</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{
+background: rgb(255, 255, 255);
+font: 11pt &quot;微软雅黑&quot;;
+}</string>
+         </property>
+         <property name="text">
+          <string>../result/</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_11">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>160</y>
+           <width>171</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{
+border-radius:5px;
+color:gray; 
+background: rgb(255, 255, 255);
+font: 11pt &quot;微软雅黑&quot;;
+border:1px solid rgb(110, 110, 110);
+}
+</string>
+         </property>
+         <property name="text">
+          <string>  增长区域初始值</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_15">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>460</y>
+           <width>171</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{
+border-radius:5px;
+color:gray; 
+background: rgb(255, 255, 255);
+font: 11pt &quot;微软雅黑&quot;;
+border:1px solid rgb(110, 110, 110);
+}
+</string>
+         </property>
+         <property name="text">
+          <string>  输出路径</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_13">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>210</y>
+           <width>171</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{
+border-radius:5px;
+color:gray; 
+background: rgb(255, 255, 255);
+font: 11pt &quot;微软雅黑&quot;;
+border:1px solid rgb(110, 110, 110);
+}
+</string>
+         </property>
+         <property name="text">
+          <string>  图像融合算法</string>
+         </property>
+        </widget>
+        <widget class="QComboBox" name="cboxFuse">
+         <property name="geometry">
+          <rect>
+           <x>280</x>
+           <y>210</y>
+           <width>186</width>
+           <height>32</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QComboBox {
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 1px 2px 1px 2px;  
+    min-width: 9em;  
+font: 11pt &quot;微软雅黑&quot;;
+}
+
+ </string>
+         </property>
+         <item>
+          <property name="text">
+           <string>覆盖融合算法</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>均值融合算法</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>最大值融合算法(推荐)</string>
+          </property>
+         </item>
+        </widget>
+        <widget class="QComboBox" name="cboxFeature">
+         <property name="geometry">
+          <rect>
+           <x>280</x>
+           <y>110</y>
+           <width>186</width>
+           <height>32</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QComboBox {
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 1px 2px 1px 2px;  
+    min-width: 9em;  
+font: 11pt &quot;微软雅黑&quot;;
+}
+
+ </string>
+         </property>
+         <item>
+          <property name="text">
+           <string>Sift算子(error)</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Surf算子</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Fast算子</string>
+          </property>
+         </item>
+        </widget>
+        <widget class="QLabel" name="label_16">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>410</y>
+           <width>171</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{
+border-radius:5px;
+color:gray; 
+background: rgb(255, 255, 255);
+font: 11pt &quot;微软雅黑&quot;;
+border:1px solid rgb(110, 110, 110);
+}
+</string>
+         </property>
+         <property name="text">
+          <string>  输出格式</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_10">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>110</y>
+           <width>171</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{
+border-radius:5px;
+color:gray; 
+background: rgb(255, 255, 255);
+font: 11pt &quot;微软雅黑&quot;;
+border:1px solid rgb(110, 110, 110);
+}
+</string>
+         </property>
+         <property name="text">
+          <string>  特征点提取算子</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="btnMore">
+         <property name="geometry">
+          <rect>
+           <x>461</x>
+           <y>460</y>
+           <width>31</width>
+           <height>32</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>4</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string>····</string>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="rbtn8z2">
+         <property name="geometry">
+          <rect>
+           <x>380</x>
+           <y>420</y>
+           <width>89</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>.png</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_17">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>310</y>
+           <width>171</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{
+border-radius:5px;
+color:gray; 
+background: rgb(255, 255, 255);
+font: 11pt &quot;微软雅黑&quot;;
+border:1px solid rgb(110, 110, 110);
+}
+</string>
+         </property>
+         <property name="text">
+          <string>  图像增强</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_14">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>260</y>
+           <width>171</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{
+border-radius:5px;
+color:gray; 
+background: rgb(255, 255, 255);
+font: 11pt &quot;微软雅黑&quot;;
+border:1px solid rgb(110, 110, 110);
+}
+</string>
+         </property>
+         <property name="text">
+          <string>  GPU</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_18">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>360</y>
+           <width>171</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{
+border-radius:5px;
+color:gray; 
+background: rgb(255, 255, 255);
+font: 11pt &quot;微软雅黑&quot;;
+border:1px solid rgb(110, 110, 110);
+}
+</string>
+         </property>
+         <property name="text">
+          <string>  亮度均衡</string>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="rbtn5Yes">
+         <property name="geometry">
+          <rect>
+           <x>280</x>
+           <y>270</y>
+           <width>71</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>是</string>
+         </property>
+        </widget>
+        <widget class="QSpinBox" name="sboxRegion">
+         <property name="geometry">
+          <rect>
+           <x>280</x>
+           <y>160</y>
+           <width>81</width>
+           <height>32</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>13</pointsize>
+          </font>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="rbtn1z2">
+         <property name="geometry">
+          <rect>
+           <x>380</x>
+           <y>70</y>
+           <width>89</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>从上到下</string>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="rbtn1z1">
+         <property name="geometry">
+          <rect>
+           <x>280</x>
+           <y>70</y>
+           <width>89</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>自由排列</string>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="rbtn1z3">
+         <property name="geometry">
+          <rect>
+           <x>480</x>
+           <y>70</y>
+           <width>89</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>从左到右</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_2">
+         <property name="geometry">
+          <rect>
+           <x>210</x>
+           <y>10</y>
+           <width>201</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>18</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>参 数 设 置</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="rbtn5No">
+         <property name="geometry">
+          <rect>
+           <x>380</x>
+           <y>270</y>
+           <width>71</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>否</string>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="rbtn6No">
+         <property name="geometry">
+          <rect>
+           <x>380</x>
+           <y>320</y>
+           <width>71</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>否</string>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="rbtn6Yes">
+         <property name="geometry">
+          <rect>
+           <x>280</x>
+           <y>320</y>
+           <width>71</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>是</string>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="rbtn7No">
+         <property name="geometry">
+          <rect>
+           <x>380</x>
+           <y>370</y>
+           <width>71</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>否</string>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="rbtn7Yes">
+         <property name="geometry">
+          <rect>
+           <x>280</x>
+           <y>370</y>
+           <width>71</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>是</string>
+         </property>
+        </widget>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="qwidget1" native="true">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(240, 240, 240);</string>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <spacer name="horizontalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btnConfirm">
+           <property name="minimumSize">
+            <size>
+             <width>100</width>
+             <height>35</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>微软雅黑</family>
+             <pointsize>12</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{border-radius:5px; color:white; background: #00ade6;}
+QPushButton::hover{background: #0079ba;}
+QPushButton::pressed{background:#00ade6;}
+QPushButton::disabled{background: #cccccc; color:#eeeeee;}</string>
+           </property>
+           <property name="text">
+            <string>确认</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btnCancel">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>100</width>
+             <height>35</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>微软雅黑</family>
+             <pointsize>12</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{border-radius:5px; color:white; background: #00ade6;}
+QPushButton::hover{background: #0079ba;}
+QPushButton::pressed{background:#00ade6;}
+QPushButton::disabled{background: #cccccc; color:#eeeeee;}</string>
+           </property>
+           <property name="text">
+            <string>取消</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_3">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

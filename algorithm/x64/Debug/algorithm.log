@@ -1,0 +1,23 @@
+﻿  Stitcher.cpp
+f:\data\imagestisch\algorithm\stitcher.h(105): warning C4251: “Stitcher::outputName”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“Stitcher”的客户端使用
+  g:\vs2015\vc\include\xstring(2633): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+f:\data\imagestisch\algorithm\stitcher.h(107): warning C4251: “Stitcher::outputfileExtension”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“Stitcher”的客户端使用
+  g:\vs2015\vc\include\xstring(2633): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+f:\data\imagestisch\algorithm\stitcher.h(113): warning C4251: “Stitcher::log”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“Stitcher”的客户端使用
+  g:\vs2015\vc\include\xstring(2633): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+f:\data\imagestisch\algorithm\stitcher.cpp(26): warning C4305: “=”: 从“double”到“float”截断
+f:\data\imagestisch\algorithm\stitcher.cpp(40): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\time.h(505): note: 参见“localtime”的声明
+f:\data\imagestisch\algorithm\stitcher.cpp(67): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\time.h(505): note: 参见“localtime”的声明
+f:\data\imagestisch\algorithm\stitcher.cpp(95): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\time.h(505): note: 参见“localtime”的声明
+f:\data\imagestisch\algorithm\stitcher.cpp(224): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+f:\data\imagestisch\algorithm\stitcher.cpp(266): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+f:\data\imagestisch\algorithm\stitcher.cpp(330): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+f:\data\imagestisch\algorithm\stitcher.cpp(554): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\time.h(505): note: 参见“localtime”的声明
+  algorithm.vcxproj -> F:\data\ImageStisch\x64\Debug\algorithm.dll
+  algorithm.vcxproj -> F:\data\ImageStisch\x64\Debug\algorithm.pdb (Partial PDB)
